@@ -1,0 +1,316 @@
+body {
+    color: #888888;
+    font-family: 'Lato',Arial,serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+a {
+    color: #555555;
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.clr {
+    clear: both;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+}
+.container > header {
+    display: block;
+    margin: 10px;
+    padding: 20px 10px 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.container > header h1 {
+    color: #666666;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+.container > header p {
+    color: #888888;
+    margin: 0;
+    padding: 15px 0 5px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+.codrops-top {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.2);
+    font-family: Cambria,Georgia,serif;
+    font-size: 11px;
+    line-height: 24px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 9999;
+}
+.codrops-top a {
+    color: #333333;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+.codrops-top a:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+}
+.codrops-top span.right {
+    float: right;
+}
+.codrops-top span.right a {
+    display: block;
+    float: left;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    font-size: 100%;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover, a:active {
+    outline: 0 none;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: bold;
+}
+blockquote {
+    margin: 1em 40px;
+}
+dfn {
+    font-style: italic;
+}
+mark {
+    background: none repeat scroll 0 0 #FFFF00;
+    color: #000000;
+}
+p, pre {
+    margin: 1em 0;
+}
+pre, code, kbd, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {
+    quotes: none;
+}
+q:before, q:after {
+    content: none;
+}
+small {
+    font-size: 75%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+dd {
+    margin: 0 0 0 40px;
+}
+menu, ol, ul {
+    padding: 0 0 0 40px;
+}
+nav ul, nav ol {
+    list-style: none outside none;
+}
+img {
+    border: 0 none;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+form {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #C0C0C0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0 none;
+    padding: 0;
+    white-space: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {
+    line-height: normal;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    padding: 0;
+}
+input[type="search"] {
+    -moz-box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    -moz-box-sizing: border-box;
+}
+
+
+#chart-container {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 auto 50px;
+    padding: 20px 30px;
+    width: 1000px;
+}
+#chart-container h2 {
+    color: #444444;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    padding: 10px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+svg {
+    font-family: 'Lato',Arial,serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+text.country-title {
+    font-size: 20px;
+}
+text.instructions {
+    font-size: 16px;
+}
+g.context g.brush rect.background {
+    fill: rgba(0, 0, 0, 0.1);
+}
+g.context g.axis path {
+    stroke-opacity: 0;
+}
+g.context g.axis line {
+    stroke-opacity: 0.1;
+}
+g.p1 path.chart {
+    fill: rgba(127, 201, 127, 0.4);
+}
+g.p2 path.chart {
+    fill: rgba(127, 201, 174, 0.4);
+}
+g.p3 path.chart {
+    fill: rgba(127, 183, 201, 0.4);
+}
+g.p4 path.chart {
+    fill: rgba(127, 130, 201, 0.4);
+}
+g.pAll path.chart {
+    fill: rgba(171, 127, 201, 0.4);
+}
+.axis path, .axis line {
+    fill: none;
+    shape-rendering: crispedges;
+    stroke: #AAAAAA;
+}
+.brush .extent {
+    fill-opacity: 0.125;
+    shape-rendering: crispedges;
+    stroke: #F09F8C;
+}
+g.context rect.background {
+    fill: #C8C8FF;
+    visibility: visible !important;
+}
+rect.pane {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
